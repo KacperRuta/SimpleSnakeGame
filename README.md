@@ -17,3 +17,18 @@ This is a simple implementation of the classic Snake game developed in Java 21 u
     - Left / A: Move left
     - Right / D: Move right
 
+## How to Run
+
+- You can download **JavaSnakeGame.jar** to get the runable version of the game by itself.
+- You can also clone or download the repository containing the `SnakeGame`, `Frame`, and `Panel` classes and then compile and run the program, the main class is **SnakeGame**.
+
+## Project Structure
+
+- **SnakeGame.java**: The main entry point of the game. It initializes the game window by creating a **Frame**.
+- **Frame.java**: Extends **JFrame** and serves as the main window for the game. It includes the **Panel** where the game logic and rendering occur.
+- **Panel.java**: Handles the core gameplay logic, including movement, collision detection, point generation, and the drawing of the snake and game grid. It also manages user input and updates the game state.
+
+## Technologies Used
+- **Java 21**: The programming language used for this project.
+- **Swing**: Used to create the graphical user interface and manage the game window.
+- **AWT**: Used for handling events, drawing, and other lower-level graphics functionalities.
